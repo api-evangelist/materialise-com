@@ -1,0 +1,40 @@
+generated: '2026-10-24'
+method: probed
+source: https://www.materialise.com/en/data-privacy-notice
+signals:
+  data_subject_request:
+    - evidence:
+        source: https://www.materialise.com/en/data-privacy-notice
+        http_status: 200
+        fetched: true
+        quote: "Lastly, this Data Privacy Notice describes your rights under the GDPR (Section 8), including who to contact in case you wish to exercise any of these rights."
+        section: "8. YOUR RIGHTS AS DATA SUBJECTS"
+        note: "Materialise lists data subject rights such as access, erasure, restriction, objection and data portability."
+    - evidence:
+        source: https://www.materialise.com/en/data-privacy-notice
+        http_status: 200
+        fetched: true
+        quote: "You have the right to request the erasure of your personal data from our systems without undue delay..."
+        section: "8.3 RIGHT TO ERASURE"
+        note: "Specifies right to be forgotten."
+    - evidence:
+        source: https://www.materialise.com/en/data-privacy-notice
+        http_status: 200
+        fetched: true
+        quote: "You have the right to request that we restrict the processing thereof..."
+        section: "8.4 RESTRICT OF PROCESSING"
+        note: "Specifies right to restrict processing."
+    - evidence:
+        source: https://www.materialise.com/en/data-privacy-notice
+        http_status: 200
+        fetched: true
+        quote: "You have the right to object at any time to the processing of your personal data by MATERIALISE based on our legitimate interest."
+        section: "8.5 RIGHT TO OBJECT"
+        note: "Specifies right to object."
+    - evidence:
+        source: https://www.materialise.com/en/data-privacy-notice
+        http_status: 200
+        fetched: true
+        quote: "Where technically feasible, you may request MATERIALISE to export the personal data we currently maintain about you in a structured, commonly used and machine-readable format..."
+        section: "8.6 DATA PORTABILITY"
+        note: "Specifies right to data portability."

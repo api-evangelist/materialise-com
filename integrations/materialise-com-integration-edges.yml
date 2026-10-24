@@ -1,0 +1,22 @@
+generated: '2026-10-24'
+method: none
+source:
+- https://zapier.com/apps/materialise-com/integrations
+- https://zapier.com/apps/materialise/integrations
+- https://zapier.com/apps/identify3d/integrations
+- https://n8n.io/integrations/materialise-com/
+- https://n8n.io/integrations/materialise/
+- https://composio.dev/toolkits/materialise-com
+- https://monid.ai/tools/materialise-com
+checked:
+- https://composio.dev/toolkits/materialise-com
+- https://monid.ai/tools/materialise-com
+- https://n8n.io/integrations/materialise-com/
+- https://n8n.io/integrations/materialise/
+- https://zapier.com/apps/identify3d/integrations
+- https://zapier.com/apps/materialise-com/integrations
+- https://zapier.com/apps/materialise/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,25 +1,81 @@
 aid: materialise-com
+
 name: Identify3D
-description: 'Identify3D is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by uncork-capital) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://assets-eu-01.kc-usercontent.com:443/8ff24b0e-57a3-0157-62d1-fa4ac9734eb5/38ac5120-655c-4bb1-826d-64fe39a12cbd/og-materialise-software-encryption-identify-3d.jpg
+
+description: 'Identify3D, part of Materialise, offers a secure digital manufacturing asset control platform that enables companies to manage and protect their 3D printing workflows, data, and intellectual property across distributed manufacturing networks. The solution provides encryption, access control, and traceability to ensure secure collaboration and compliance in the medical device and industrial sectors.'
+
 url: https://raw.githubusercontent.com/api-evangelist/materialise-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- 3DPrinting
+- DigitalManufacturing
+- AssetControl
+- MedicalDevices
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- uncork-capital
+
 common:
+- type: LLMsTxt
+  url: llms/materialise-com-llms.txt
+- type: Hosts
+  url: hosts/materialise-com-hosts.yml
+- type: Vendors
+  url: vendors/materialise-com-vendors.yml
+- type: TrustCenter
+  url: https://www.materialise.com/en/about/trust
+- type: SignUp
+  url: https://www.materialise.com/en/events/hip-forum/register
+- type: Pricing
+  url: https://www.materialise.com/en/news/press-releases/pricing-public-offering-of-30-million-american-depositary-shares
+- type: Newsroom
+  url: https://www.materialise.com/en/news
+- type: ChangeLog
+  url: https://www.materialise.com/en/events/eacmfs/whats-new
+- type: GettingStarted
+  url: https://help.materialise.com/ko_KR/87527-getting-started-kr/materialise-software
+- type: Documentation
+  url: https://help.materialise.com/
+- type: DomainSecurity
+  url: security/materialise-com-domain-security.yml
 - type: Website
   url: https://www.materialise.com/en/industrial/software/identify3d
+
+apis: []
+
+x-backed-by:
+- uncork-capital
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No machine‑readable API specification found on the provider’s documentation site.
+  evidence:
+    - url: https://www.materialise.com/en/industrial/software
+      status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
